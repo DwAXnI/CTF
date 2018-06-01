@@ -10,3 +10,9 @@ helo.c:
 ![heloo](ctF/pic/Heloo.png)
 連結階段: gcc helo.o -o helo
 產生可執行檔:helo
+
+產生AT&T語法格式的組語(gcc預設使用的格式)
+gcc -S -masm=att helo.c -o helo_att.s
+
+產生Intel語法格式的組語(微軟預設使用的格式)
+gcc -S -masm=intel helo.c -o helo_intel.s
