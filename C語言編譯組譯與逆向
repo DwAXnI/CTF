@@ -17,3 +17,6 @@ gcc -S -masm=att helo.c -o helo_att.s
 產生Intel語法格式的組語(微軟預設使用的格式)
 gcc -S -masm=intel helo.c -o helo_intel.s
 ![helointel](ctF/pic/helointel.png)
+
+去掉一堆註解 加上參數-fno-asynchronous-unwind-tables
+gcc -S -masm=intel helo.c -o helo_intel_OK.s -fno-asynchronous-unwind-tables
