@@ -1,12 +1,12 @@
 helo.c:
-[heloc](pic/heloc.png)
+[heloc](ctF/pic/heloc.png)
 預處理階段: gcc -E helo.c -o helo.i 
-[heloi](pic/heloi.png)
+[heloi](ctF/pic/heloi.png)
 編譯階段: gcc -S helo.i -o helo.s 
 產生組語:helo.s
-[helos](pic/helos.png)
+[helos](ctF/pic/helos.png)
 組譯階段: gcc -c helo.s -o helo.o
 產生object檔:helo.o
-[heloo](pic/heloo.png)
+[heloo](ctF/pic/heloo.png)
 連結階段: gcc helo.o -o helo
 產生可執行檔:helo
