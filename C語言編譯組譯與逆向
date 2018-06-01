@@ -20,3 +20,4 @@ gcc -S -masm=intel helo.c -o helo_intel.s
 
 去掉一堆註解 加上參數-fno-asynchronous-unwind-tables
 gcc -S -masm=intel helo.c -o helo_intel_OK.s -fno-asynchronous-unwind-tables
+![helointelok](ctF/pic/helointelok.png)
