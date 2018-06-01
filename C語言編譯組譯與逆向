@@ -1,0 +1,12 @@
+helo.c:
+
+預處理階段: gcc -E helo.c -o helo.i 
+
+編譯階段: gcc -S helo.i -o helo.s 
+產生組語:helo.s
+
+組譯階段: gcc -c helo.s -o helo.o
+產生object檔:helo.o
+
+連結階段: gcc helo.o -o helo
+產生可執行檔:helo
