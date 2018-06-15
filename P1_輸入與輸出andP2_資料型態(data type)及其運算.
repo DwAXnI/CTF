@@ -1,2 +1,26 @@
 Python2貌似不能使用sep=" "
 ![py](ctF/pic/py.png)
+
+建立字串(string)==>使用引號'或"來創建字串
+![py2](ctF/pic/py2.png)
+
+str 類別有許多方法(運算子)與函數
+![py3](ctF/pic/py3.png)
+
+str 類別的+、 *、 [ : ] 與 in 運算子
+![py4](ctF/pic/py4.png)
+
+replace()取代
+![py5](ctF/pic/py5.png)
+
+join()
+![py6](ctF/pic/py6.png)
+
+split()
+![py7](ctF/pic/py7.png)
+
+upper() swapcase()
+![py8](ctF/pic/py8.png)
+
+有空白==>去除空白
+![py9](ctF/pic/py9.png)
